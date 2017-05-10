@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+body {
+	background:
+    #DCDCDC
+   
+    
+}
+header{
+	height:70px;
+	margin: 1px 1px 1px 1px;
+	padding: 20px 1px 1px 1px;
+}
+#logo a {
+	margin-left: 30px;
+	float: left;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 26px;
+	text-shadow: 0 1px 0 white;
+	color: #373e47;
+}
+
+nav {
+	overflow: hidden;
+	float: right;
+}
+
+nav li {
+	float:left;
+	list-style: none;
+}
+nav li a {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0 30px;
+	color: #143567;
+	text-shadow: 0 1px 0 white;
+}
+
+nav li a:hover {
+	color: #48D1CC;
+} 
+main {
+text-align: center;
+}
+footer {
+text-align: center;
+}
+
+#home  {
+	font-size: 30px;
+	height:400px;
+	margin: 1px 1px 1px 1px;
+	padding: 30px;
+}
+.button {
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#00BBD6), to(#EBFFFF));
+    padding: 3px 7px;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #666;
+}
+.zakaz {
+	margin: 100px;
+	float: right;
+}
+#aboute_us  {
+	border-top-style: solid;
+	line-height: 1.5;
+	padding: 30px;
+}
+.aboute_1 {
+	display: flex;
+	justify-content: space-around;
+}
+.aboute_01 {
+	display: flex;
+	justify-content: space-around;
+}
+.aboute_2 {
+	display: flex;
+	justify-content: space-around;
+}
+.aboute_02 {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+#prices {
+	border-top-style: solid;
+	line-height: 1.5;
+	padding: 30px;
+}
+
+#contact {
+	border-top-style: : solid;
+	line-height: 1.5;
+	padding: 30px;
+}
+.contact h3 {
+	display: flex;
+	justify-content: flex-start;
+}
+iframe {
+	display: flex;
+	justify-content: flex-end;
+}
+	.form {
+	display: flex;
+	justify-content: flex-start;
+	border-top-style: solid;
+	line-height: 1.5;
+	padding: 30px;
+}
+#prices table {
+	margin: auto;
+    border-collapse: collapse;
+    width: 85%;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #00BBD6;
+    color: white;
+}
+}
